@@ -1,0 +1,120 @@
+{
+  "output" : "text/xml",
+  "author" : {
+    "name" : "core team"
+  },
+  "title": {
+    "fr": "Emballer du texte dans une balise XML",
+    "en": "Wrapping a text in a XML tag"
+  },
+  "description": {
+    "fr": "...",
+    "en": "..."
+  },
+  "parameters": {
+    "rootname": {
+      "alias": "rn",
+      "type": "text",
+      "required": true,
+      "default": "root",
+      "size": "medium",
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-_:]*$",
+      "maxlength": "",
+      "label": {
+        "fr": "Nom de balise racine",
+        "en": "Root element tag name"
+      },
+      "help": {
+        "en": "...",
+        "fr": "..."
+      }
+    },
+    "rootattrs": {
+      "alias": "ra",
+      "type": "text",
+      "multiple": "AssociativeArray",
+      "required": false,
+      "default": "",
+      "size": "medium",
+      "pattern": "",
+      "maxlength": "",
+      "label": {
+        "fr": "Attributs de la balise racine",
+        "en": "Root element attributs"
+      },
+      "help": {
+        "fr": "...",
+        "en": "..."
+      }
+    },
+    "name": {
+      "alias": "n",
+      "type": "text",
+      "required": false,
+      "default": "",
+      "size": "medium",
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-_:]*$",
+      "maxlength": "",
+      "label": {
+        "fr": "Nom de balise ",
+        "en": "Element tag name"
+      },
+      "help": {
+        "en": "...",
+        "fr": "..."
+      }
+    },
+    "attrs": {
+      "alias": "a",
+      "type": "text",
+      "multiple": "AssociativeArray",
+      "required": false,
+      "default": false,
+      "size": "medium",
+      "pattern": "",
+      "maxlength": "",
+      "label": {
+        "fr": "Attributs",
+        "en": "Attributs"
+      },
+      "help": {
+        "fr": "...",
+        "en": "..."
+      }
+    },
+    "nodeclaration": {
+      "alias": "nd",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "size": "medium",
+      "pattern": "",
+      "maxlength": "",
+      "label": {
+        "fr": "Pas de déclaration XML",
+        "en": "No XML declaration"
+      },
+      "help": {
+        "en": "Drop the XML declaration that Contains XML version and data encoding.",
+        "fr": "Supprimer la déclaration XML qui indique la version XML et l'encodage des données."
+      }
+    },
+    "delimiter": {
+      "alias": "d",
+      "type": "text",
+      "required": false,
+      "default": "\\n",
+      "size": "small",
+      "pattern": "",
+      "maxlength": "",
+      "label": {
+        "fr": "Delimiteur",
+        "en": "Delimiter"
+      },
+      "help": {
+        "fr": "Un ou plusieurs caractères séparant des portions de texte, typiquement une ligne de texte se finissant par [un caractère de fin de ligne](https://fr.wikipedia.org/wiki/Fin_de_ligne).",
+        "en": "A special character or sequence of characters signifying the end of a of text segment. For example [newline](https://en.wikipedia.org/wiki/Newline)"
+      }
+    }
+  }
+}
