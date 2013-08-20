@@ -1,4 +1,5 @@
 {
+  "id": "wrap"
   "output" : "text/xml",
   "author" : {
     "name" : "core team"
