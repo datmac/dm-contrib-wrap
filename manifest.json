@@ -1,5 +1,5 @@
 {
-  "id": "wrap"
+  "id": "wrap",
   "output" : "text/xml",
   "author" : {
     "name" : "core team"
@@ -9,8 +9,8 @@
     "en": "Wrapping a text in a XML tag"
   },
   "description": {
-    "fr": "...",
-    "en": "..."
+    "fr": "Produire un fichier XML valide à partir des lignes d'un fichier texte",
+    "en": "To produce a valid XML file with the lines of a text file"
   },
   "parameters": {
     "rootname": {
@@ -26,8 +26,8 @@
         "en": "Root element tag name"
       },
       "help": {
-        "en": "...",
-        "fr": "..."
+        "en": "The root element tag wraps the whole of the input stream",
+        "fr": "La balise racine encapsule l'ensemble du flux d'entrée"
       }
     },
     "rootattrs": {
@@ -44,8 +44,8 @@
         "en": "Root element attributs"
       },
       "help": {
-        "fr": "...",
-        "en": "..."
+        "fr": "Ensemble de clé/valeurs destiné à la balise racine.",
+        "en": "Set of key / value for the root tag."
       }
     },
     "name": {
@@ -61,8 +61,8 @@
         "en": "Element tag name"
       },
       "help": {
-        "en": "...",
-        "fr": "..."
+        "en": "The tag wraps each line of the input stream",
+        "fr": "La balise encasule chaque ligne du flux d'entrée"
       }
     },
     "attrs": {
@@ -79,8 +79,8 @@
         "en": "Attributs"
       },
       "help": {
-        "fr": "...",
-        "en": "..."
+        "fr": "Ensemble de clé/valeurs destiné aux balises de chaque line.",
+        "en": "Set of key / value for each tag of each line."
       }
     },
     "nodeclaration": {
