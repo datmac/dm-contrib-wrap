@@ -31,5 +31,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/milljs/mill-contrib-wrap/issues"
+  },
+  "bin" : {
+    "mill-contrib-wrap": "./cli.js"
   }
 }
