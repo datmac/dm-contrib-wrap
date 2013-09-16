@@ -46,7 +46,7 @@ Command.prototype.parse = function (lines, done) {
                 }
               )
             }
-            self.xw.text(line).endElement();
+            self.xw.text(line.trim()).endElement();
           }
         }
       );
