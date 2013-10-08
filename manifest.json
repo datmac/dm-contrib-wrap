@@ -1,9 +1,6 @@
 {
   "id": "wrap",
   "output" : "text/xml",
-  "author" : {
-    "name" : "core team"
-  },
   "title": {
     "fr": "Emballer du texte dans une balise XML",
     "en": "Wrapping a text in a XML tag"
