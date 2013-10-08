@@ -2,7 +2,7 @@
 
 var path = require('path')
 , basename = path.basename(__filename, '.js')
-, debug = require('debug')('mill:contrib:' + basename)
+, debug = require('debug')('dm:contrib:' + basename)
 , Segmenter = require('segmenter')
 , XMLWriter = require('xml-writer')
 , Transform = require("stream").Transform
